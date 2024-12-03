@@ -21,7 +21,7 @@ def partA(data: Tuple[List, List]):
     return a, b
 
 
-def partB(data):
+def partB(data: Tuple[List, List]):
     a, b = data
     cnt = Counter(b)
     print(sum(i * cnt[i] for i in a))
