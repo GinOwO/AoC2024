@@ -11,11 +11,6 @@ def preprocess() -> Dict[Tuple[int, int], str]:
     return data
 
 
-"""
-
-   (1, 1)
-"""
-
 dirs = [-1, -1, 0, 0, 1, 1, 0, -1, 1, -1]
 
 
